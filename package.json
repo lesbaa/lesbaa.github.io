@@ -4,8 +4,12 @@
   "description": "",
   "main": "build.js",
   "scripts": {
+    "build": "node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Les Moffat",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "html-minifier": "^3.5.20"
+  }
 }
